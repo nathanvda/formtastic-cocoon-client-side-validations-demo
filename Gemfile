@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.1'
+gem 'rails', '~> 3.2.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,6 +26,8 @@ gem "jquery-rails"
 
 gem "formtastic"
 gem "cocoon"
+gem 'client_side_validations', :git => 'https://github.com/bcardarella/client_side_validations.git'
+gem 'client_side_validations-formtastic', :git => "https://github.com/dockyard/client_side_validations-formtastic.git"
 
 
 # we need this here, see http://blog.davidchelimsky.net/2010/07/11/rspec-rails-2-generators-and-rake-tasks/

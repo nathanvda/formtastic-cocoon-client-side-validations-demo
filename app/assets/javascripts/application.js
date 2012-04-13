@@ -7,4 +7,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require cocoon
+//= require rails.validations
+//= require rails.validations.formtastic
 //= require_tree .
