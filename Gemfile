@@ -27,6 +27,7 @@ gem "jquery-rails"
 gem "formtastic"
 gem "cocoon"
 gem 'client_side_validations', :git => 'https://github.com/bcardarella/client_side_validations.git'
+#gem 'client_side_validations', :git => 'https://github.com/pkmiec/client_side_validations.git', :branch => 'nested_attributes'
 gem 'client_side_validations-formtastic', :git => "https://github.com/dockyard/client_side_validations-formtastic.git"
 
 
