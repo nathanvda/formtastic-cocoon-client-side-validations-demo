@@ -10,3 +10,16 @@
 //= require rails.validations
 //= require rails.validations.formtastic
 //= require_tree .
+
+$(document).ready(function() {
+    $('#tasks').bind('insertion-callback',
+         function() {
+           alert('task added!!');
+           $('form[data-validate]').validate();
+         });
+    $('#tasks').bind("after-removal-callback",
+         function() {
+           alert('task removed!!');
+           $('form[data-validate]').validate();
+         });
+});
